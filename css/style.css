@@ -1,0 +1,29 @@
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.arancione {
+    background-color: orange;
+}
+
+.rosso {
+    background-color: red;
+}
+
+.blu {
+    background-color: blue;
+}
